@@ -1,9 +1,8 @@
-It follows the Corrective RAG implemenation, but with additional Nodes: 
+It follows the C-RAG and S-RAG implemenation, but with additional Nodes: 
 
-1. We'll be adding Halucination Grader - if the answer is grounded in the documents
-    chain-> hallucination_grader
+1. We'll be adding Router - if we're fetching from vector store or from web will be it's functionality
+    chain-> router.py
+    
 
-2. We'll be adding Answer Grader - if the generated answer answer the question
-    chain-> answer_grader
     
 
